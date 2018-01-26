@@ -1,0 +1,3 @@
+probe process("/root/test/cplus/sprinttest").function("*"){
+    println(probefunc())
+}
